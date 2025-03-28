@@ -1,0 +1,17 @@
+CoreX Fitness Web App
+
+CoreX Fitness is a web application for managing gym trainers, client registrations, and workout bookings. Users can explore trainer profiles, register for the service, and book workout sessions
+
+Book workouts with trainers, stored using JSON Server.
+
+Installation
+Install JSON Server: npm install -g json-server
+
+Start server: json-server --watch db.json --port 3000
+
+Open index.html in a browser.
+
+Endpoints
+/trainers: Fetch trainer data.
+
+/booking: Post and view bookings.

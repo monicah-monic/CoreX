@@ -1,0 +1,101 @@
+{
+  "trainers": [
+    {
+      "id": 1,
+      "first_name": "Tiffi",
+      "last_name": "Vallantine",
+      "email": "tvallantine0@fc2.com",
+      "gender": "Female",
+      "description": "The pain you feel today will be the strength you feel tomorrow",
+      "workout": "crossfit"
+    },
+    {
+      "id": 2,
+      "first_name": "Row",
+      "last_name": "Kellough",
+      "email": "rkellough1@ucsd.edu",
+      "gender": "Male",
+      "description": "Embrace the burn, become the best version of yourself",
+      "workout": "pilates"
+    },
+    {
+      "id": 3,
+      "first_name": "Roch",
+      "last_name": "Feldhammer",
+      "email": "rfeldhammer2@accuweather.com",
+      "gender": "Male",
+      "description": "Strong today stronger tomorrow",
+      "workout": "boxing"
+    },
+    {
+      "id": 4,
+      "first_name": "Meridel",
+      "last_name": "Kruger",
+      "email": "mkruger3@tiny.cc",
+      "gender": "Female",
+      "description": "A little progress each day adds up to big results",
+      "workout": "yoga"
+    },
+    {
+      "id": 5,
+      "first_name": "Rosalyn",
+      "last_name": "Lethebridge",
+      "email": "rlethebridge4@weibo.com",
+      "gender": "Female",
+      "description": "Strong today stronger tomorrowThe pain you feel today will be the strength you feel tomorrow",
+      "workout": "crossfit"
+    },
+    {
+      "id": 6,
+      "first_name": "Christyna",
+      "last_name": "Tapsfield",
+      "email": "ctapsfield5@hao123.com",
+      "gender": "Female",
+      "description": "The only bad workout is the one you didn't do",
+      "workout": "cardio"
+    },
+    {
+      "id": "febb",
+      "first_name": "zen",
+      "last_name": "w",
+      "email": "msowanj@gmail.com",
+      "description": "Welcome to the CoreX community!",
+      "workout": "To be decided"
+    },
+    {
+      "id": "6771",
+      "first_name": "CECILIAH",
+      "last_name": "w",
+      "email": "monicahwanjiru205@gmail.com",
+      "description": "Welcome to the CoreX community!",
+      "workout": "To be decided"
+    },
+    {
+      "id": "f760",
+      "first_name": "zen",
+      "last_name": "w",
+      "email": "msowanj@gmail.com",
+      "description": "Welcome to the CoreX community!",
+      "workout": "To be decided"
+    },
+    {
+      "id": "3b0f",
+      "first_name": "zen",
+      "last_name": "w",
+      "email": "msowanj@gmail.com",
+      "gender": "F",
+      "description": "loose weight",
+      "workout": "cardio"
+    }
+  ],
+  "booking": [
+    {
+      "id": "6771",
+      "first_name": "hannah",
+      "last_name": "w",
+      "email": "monicahwanjiru205@gmail.com",
+      "description": "Welcome to the CoreX community!",
+      "workout": "To be decided"
+    }
+  ]
+}
