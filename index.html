@@ -38,8 +38,8 @@
         <label for="lastname">Last Name:</label><br />
         <input type="text" id="last_name" placeholder="Enter Last Name" /><br />
         <label for="email">Email:</label><br />
-        <input type="text" id="email" placeholder="Enter Email Address" />
-       <label for="gender">Gender:</label><br />
+        <input type="text" id="email" placeholder="Enter Email Address" /><br>
+        <label for="gender">Gender:</label><br />
         <input type="text" id="gender" placeholder="M/F" /><br />
         <label for="description">Description:</label><br />
         <input type="text" id="description" placeholder="Motivation" /><br />
@@ -76,6 +76,28 @@
       <h2>Our <span>Trainers</span></h2>
       <div class="trainers"></div>
     </div>
+    
+
+
+    <!--------booking modal------->
+    <div class="modal booking-modal" style="display: none;">
+  <div class="modal-content">
+    <h2>Booking Details</h2>
+    <form id="bookingForm">
+      <label for="booking_first_name">First Name:</label>
+      <input type="text" id="booking_first_name" name="first_name" required />
+
+      <label for="booking_last_name">Last Name:</label>
+      <input type="text" id="booking_last_name" name="last_name" required />
+
+      <label for="booking_contact">Contact:</label>
+      <input type="text" id="booking_contact" name="contact" required/>
+
+      <button type="submit" class="btn submit-booking">Submit Booking</button>
+    </form>
+  </div>
+</div>
+    <!-----------booking end--------->
     <!----trainers end-->
 
     <!-- plans section -->
@@ -129,10 +151,12 @@
     </section>
     <!-- plan section end -->
 
-    <!-- --trainers section-- -->
+  
     <!--footer-->
-    <div class="footer">
+    <section class="footer">
+    <div >
       <h2><span>Find</span> Us</h2>
+      <div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6868168302344!2d36.94332147502522!3d-1.
         3645808986225052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0da2461e461d%3A0x1a363ee27ba4e493!2sKatani%20Villas!
@@ -143,7 +167,17 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+         ></iframe>
+       </div>
+      <div class="footer-links">
+        <div class="contacts">
+            <h3>Contact us:</h3>
+            <p>Phone number: 0711274935</p>
+            <p>Email: core.x@gmail.com</p>
+        </div>
+        <p>CoreX. All rights reserved.</p>
+    </div>
+    </section>
     </div>
   </body>
   <script src="script.js"></script>
